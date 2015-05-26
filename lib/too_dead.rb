@@ -12,6 +12,12 @@ require 'vedeu'
 module TooDead
   class Menu
     # include Vedeu
+  def initialize
+    @user = nil
+    @todo_list = nil
+  end
+
+  
 
   end
 end
